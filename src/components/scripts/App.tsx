@@ -1,10 +1,16 @@
 import "../styles/App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./Footer";
+import NavBar from "./NavBar";
+import Page from "./Page";
+import Socials from "./Socials";
 
 function App() {
   return (
     <>
-      <h1>Adminka</h1>
+      <Socials />
+      <NavBar />
+      <Page />
+      <Footer />
     </>
   );
 }

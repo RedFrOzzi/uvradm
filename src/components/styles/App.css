@@ -1,0 +1,8 @@
+:root {
+  --primary-blue: rgb(28, 66, 157);
+  --primary-transparent: rgba(255, 255, 255, 0);
+}
+
+.poop {
+  height: 200vh;
+}
