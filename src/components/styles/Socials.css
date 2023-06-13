@@ -1,3 +1,51 @@
 .socials {
   background-color: rgb(28, 66, 140);
 }
+
+.visible {
+  width: auto;
+}
+
+.nonVisible {
+  width: 50px;
+  transition: width 0.3s;
+}
+
+.slide {
+  width: 3.1rem;
+  color: rgba(255, 255, 255, 0);
+  transition: width 0.4s ease, color 0.1s 0.4s;
+}
+
+.slide:hover {
+  width: 10rem;
+  color: aliceblue;
+}
+
+.slide > .text-on-hover {
+  display: none;
+}
+
+.slide:hover > .text-on-hover {
+  display: flex;
+}
+
+.odno:hover {
+  background-color: rgb(255, 136, 0);
+}
+
+.tele:hover {
+  background-color: rgb(51, 144, 236);
+}
+
+.vk:hover {
+  background-color: rgb(0, 119, 255);
+}
+
+.about:hover {
+  background-color: rgba(184, 184, 184, 0.479);
+}
+
+.warnings:hover {
+  background-color: rgba(220, 53, 69, 0.8) !important;
+}

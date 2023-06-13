@@ -7,10 +7,12 @@ import Socials from "./Socials";
 function App() {
   return (
     <>
-      <Socials />
-      <NavBar />
-      <Page />
-      <Footer />
+      <div className="wrapper">
+        <Socials />
+        <NavBar />
+        <Page />
+        <Footer />
+      </div>
     </>
   );
 }

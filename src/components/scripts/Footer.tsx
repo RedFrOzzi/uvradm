@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <div className="container-fluid bg-secondary bg-gradient ">
+    <footer className="container-fluid bg-secondary bg-gradient ">
       <div className="row align-items-center">
         <div
           className="col-lg-3 col-12 bg-primary d-flex align-items-center justify-content-center"
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
           a
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

@@ -1,34 +1,8 @@
-// import React, { useEffect, useState } from "react";
 import { useEffect, useState } from "react";
 import "../styles/NavBar.css";
 
 const Navbar: React.FC = () => {
-  // const [isScrolled, setIsScrolled] = useState(false);
-
-  // const getComponentHeight = () => {
-  //   console.log("get height fired");
-  //   const navbar = document.querySelector(".socials");
-  //   const navbarHeight = navbar?.clientHeight;
-  //   return navbarHeight ? navbarHeight + 10 : 0;
-  // };
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > getComponentHeight()) {
-  //       setIsScrolled(true);
-  //     } else {
-  //       setIsScrolled(false);
-  //     }
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-
-  const [navBarHeight, setNavBarHeight] = useState(200);
+  const [navBarHeight, setNavBarHeight] = useState(45);
 
   useEffect(() => {
     const handleResize = () => {
@@ -48,12 +22,19 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`navbar sticky-top navbar-expand-sm bg-light navbar-light `}
+      className={`navbar p-0 sticky-top navbar-expand-md bg-light navbar-light `}
       style={{ height: navBarHeight }}
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Logo
+        <a className="navbar-brand py-0 d-flex align-items-center" href="#">
+          <img
+            src="../../../public/UvarovoImg.png"
+            alt="logo"
+            style={{ height: navBarHeight - 2, maxWidth: "100%" }}
+          />
+          <h1 className="px-2 logoText text-wrap">
+            Администрация города Уварово Тамбовской области
+          </h1>
         </a>
         <button
           className="navbar-toggler"

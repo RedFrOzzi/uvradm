@@ -1,3 +1,28 @@
-.info-block {
+[class*="info-block"] {
   height: 120px;
+  transition: background-color 0.4s ease;
+}
+
+.info-block-1 {
+  background-color: var(--primary-blue);
+}
+
+.info-block-2 {
+  background-color: var(--primary-blue-100);
+}
+
+.info-block-3 {
+  background-color: var(--primary-blue-200);
+}
+
+.info-block-4 {
+  background-color: var(--primary-blue-300);
+}
+
+.info-block-5 {
+  background-color: var(--primary-blue-400);
+}
+
+[class*="info-block"]:hover {
+  background-color: rgb(3, 172, 152);
 }
