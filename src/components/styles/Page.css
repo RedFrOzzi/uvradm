@@ -1,7 +1,7 @@
 .news-wrapper {
   background-color: rgb(245, 245, 245);
   color: black;
-  height: 600px;
+  height: 700px;
   overflow-y: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -19,7 +19,7 @@
 }
 
 [class*="info-block"] {
-  height: 120px;
+  height: 140px;
   transition: background-color 0.4s ease;
 }
 

@@ -1,21 +1,16 @@
 import React from "react";
 import "../styles/Page.css";
 import NewsList from "./NewsList";
+import Carousel from "./Carousel";
+import InfoLine from "./InfoLine";
 
 const Page: React.FC = () => {
   return (
     <div className="container-fluid bg-dark text-white">
       <div className="row align-items-stretch">
-        <div className="col-lg-6 col-md-9 col-12 ">
-          <div className="container-fluid">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci,
-            saepe corporis? Odio itaque quis corporis. Blanditiis velit non in
-            magnam cumque et harum aperiam ducimus asperiores. Fuga quaerat odio
-            dolorum.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Adipisci, saepe corporis? Odio itaque quis corporis. Blanditiis
-            velit non in magnam cumque et harum aperiam ducimus asperiores. Fuga
-            quaerat odio dolorum.Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit.
+        <div className="col-lg-7 col-md-9 col-12 p-0">
+          <div className="container-fluid p-0">
+            <Carousel />
           </div>
         </div>
         <div className="col-lg-2 col-md-3 col-12 d-flex">
@@ -52,11 +47,11 @@ const Page: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="news-wrapper col-lg-4 col-md-12 col-12">
+        <div className="news-wrapper col-lg-3 col-md-12 col-12">
           <NewsList />
         </div>
+        <InfoLine />
       </div>
-      <div className="" style={{ height: "100vh" }}></div>
     </div>
   );
 };
