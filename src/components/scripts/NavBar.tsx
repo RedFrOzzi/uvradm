@@ -22,13 +22,13 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`navbar p-0 sticky-top navbar-expand-md bg-light navbar-light `}
+      className="navbar p-0 sticky-top navbar-expand-md navbar-light shadow"
       style={{ height: navBarHeight }}
     >
       <div className="container-fluid">
         <a className="navbar-brand py-0 d-flex align-items-center" href="#">
           <img
-            src="../../../public/UvarovoImg.png"
+            src="../../../UvarovoImg.png"
             alt="logo"
             style={{ height: navBarHeight - 2, maxWidth: "100%" }}
           />

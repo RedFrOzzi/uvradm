@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Page.css";
+import NewsList from "./NewsList";
 
 const Page: React.FC = () => {
   return (
@@ -51,11 +52,8 @@ const Page: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-12 col-12">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci,
-          saepe corporis? Odio itaque quis corporis. Blanditiis velit non in
-          magnam cumque et harum aperiam ducimus asperiores. Fuga quaerat odio
-          dolorum.
+        <div className="news-wrapper col-lg-4 col-md-12 col-12">
+          <NewsList />
         </div>
       </div>
       <div className="" style={{ height: "100vh" }}></div>

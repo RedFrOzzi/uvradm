@@ -1,0 +1,11 @@
+li::marker {
+  content: "";
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: var(--bs-primary);
+}
