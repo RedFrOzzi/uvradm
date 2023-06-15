@@ -29,6 +29,7 @@ const Footer: React.FC = () => {
           a
         </div>
       </div>
+      <div style={{ height: "100vh" }}></div>
     </footer>
   );
 };
