@@ -2,7 +2,6 @@ import React from "react";
 import TelegramIcon from "../../assets/icons/TelegramIcon";
 import VkIcon from "../../assets/icons/VkIcon";
 import OdnoklassnikiIcon from "../../assets/icons/OdnoklassnikiIcon";
-import "../styles/Socials.css";
 
 const Socials: React.FC = () => {
   return (

@@ -1,4 +1,3 @@
-import "../styles/App.css";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import Page from "./Page";

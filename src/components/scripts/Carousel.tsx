@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Carousel.css";
 
 const Carousel: React.FC = () => {
   return (
@@ -39,7 +38,7 @@ const Carousel: React.FC = () => {
               alt="..."
             />
             <div
-              className="carousel-caption d-sm-flex flex-column align-items-start mb-5 p-2 rounded"
+              className="carousel-caption d-sm-flex flex-column align-items-start mb-5 p-2 rounded text-start"
               style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}
             >
               <h5>Уваровцы отмечают День России</h5>
@@ -63,7 +62,7 @@ const Carousel: React.FC = () => {
               alt="..."
             />
             <div
-              className="carousel-caption d-sm-flex flex-column align-items-start mb-5 p-2 rounded"
+              className="carousel-caption d-sm-flex flex-column align-items-start mb-5 p-2 rounded text-start"
               style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}
             >
               <h5>ФК "Уварово" и ФК "Котовск" г. Котовск.</h5>
@@ -87,7 +86,7 @@ const Carousel: React.FC = () => {
               alt="..."
             />
             <div
-              className="carousel-caption d-sm-flex flex-column align-items-start mb-5 p-2 rounded"
+              className="carousel-caption d-sm-flex flex-column align-items-start mb-5 p-2 rounded text-start"
               style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}
             >
               <h5>Зажгите свою виртуальную «Свечу памяти» до 22 июня!</h5>

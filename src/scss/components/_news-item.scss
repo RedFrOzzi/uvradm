@@ -1,0 +1,11 @@
+.news-item::marker {
+  content: "";
+}
+
+.news-item a {
+  color: black;
+}
+
+.news-item a:hover {
+  color: blue;
+}

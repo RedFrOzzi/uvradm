@@ -1,0 +1,18 @@
+:root {
+  --primary-blue: hsl(222, 70%, 35%);
+  --primary-blue-100: hsl(222, 70%, 42%);
+  --primary-blue-200: hsl(222, 70%, 49%);
+  --primary-blue-300: hsl(222, 70%, 56%);
+  --primary-blue-400: hsl(222, 70%, 63%);
+  --primary-transparent: rgba(255, 255, 255, 0);
+}
+
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

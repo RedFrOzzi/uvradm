@@ -1,0 +1,20 @@
+footer {
+  --f-height-logo: 100px;
+  --f-height-item: 50px;
+  background-color: var(--primary-blue);
+  color: hsl(0, 0%, 85%);
+}
+
+footer img {
+  height: calc(var(--f-height-logo) - 10px);
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.footer-logo {
+  height: var(--f-height-logo);
+}
+
+.footer-item {
+  height: var(--f-height-item);
+}

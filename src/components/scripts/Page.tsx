@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Page.css";
 import NewsList from "./NewsList";
 import Carousel from "./Carousel";
 import InfoLine from "./InfoLine";

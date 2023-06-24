@@ -2,34 +2,21 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="container-fluid bg-secondary bg-gradient ">
+    <footer className="container-fluid">
       <div className="row align-items-center">
-        <div
-          className="col-lg-3 col-12 bg-primary d-flex align-items-center justify-content-center"
-          style={{ height: "100px" }}
-        >
+        <div className="footer-logo col-lg-3 col-12 d-flex align-items-center justify-content-center">
+          <img src="/UvrLg.jpg" alt="" />
+        </div>
+        <div className="footer-item col-lg-3 col-md-4 col-12 d-flex align-items-center">
           a
         </div>
-        <div
-          className="col-lg-3 col-md-4 col-12 bg-info d-flex align-items-center"
-          style={{ height: "50px" }}
-        >
+        <div className="footer-item col-lg-3 col-md-4 col-12 d-flex align-items-center">
           a
         </div>
-        <div
-          className="col-lg-3 col-md-4 col-12 bg-warning d-flex align-items-center"
-          style={{ height: "50px" }}
-        >
-          a
-        </div>
-        <div
-          className="col-lg-3 col-md-4 col-12 bg-danger d-flex align-items-center"
-          style={{ height: "50px" }}
-        >
+        <div className="footer-item col-lg-3 col-md-4 col-12 d-flex align-items-center">
           a
         </div>
       </div>
-      <div style={{ height: "100vh" }}></div>
     </footer>
   );
 };
