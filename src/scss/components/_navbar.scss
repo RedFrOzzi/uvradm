@@ -1,1 +1,26 @@
-@use "../custom" as *;
+.dropdown-menu ul {
+  list-style-type: none;
+}
+
+.dropdown-menu .row {
+  width: 80vw;
+}
+
+@media (max-width: 992px) {
+  .dropdown-menu {
+    max-height: 160px;
+    overflow-y: auto;
+  }
+}
+
+#second-dropdown {
+  width: 60vw;
+}
+
+#last-dropdown {
+  width: auto !important;
+}
+
+.nav-item {
+  font-size: 1.06rem;
+}

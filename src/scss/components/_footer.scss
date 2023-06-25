@@ -1,8 +1,10 @@
 footer {
   --f-height-logo: 100px;
   --f-height-item: 50px;
-  background-color: var(--primary-blue);
+  background-color: hsl(0, 0%, 25%);
   color: hsl(0, 0%, 85%);
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 footer img {
@@ -17,4 +19,8 @@ footer img {
 
 .footer-item {
   height: var(--f-height-item);
+}
+
+.footer-item p {
+  margin-bottom: 0px !important;
 }

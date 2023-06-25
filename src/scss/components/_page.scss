@@ -20,7 +20,29 @@
 
 [class*="info-block"] {
   height: 140px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
   transition: background-color 0.4s ease;
+}
+
+[class*="info-block"] p {
+  margin: 0;
+  padding: 10px;
+}
+
+@media (max-width: 1140px) {
+  [class*="info-block"] {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 540px) {
+  [class*="info-block"] {
+    font-size: 0.65rem;
+    font-weight: 500;
+  }
 }
 
 .info-block-1 {
